@@ -28,6 +28,13 @@ a:hover{
 
 
 /* Goggins and Images */
+
+.searchbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
 #q{
     width: 500px;
 }
