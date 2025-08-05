@@ -37,6 +37,9 @@ a:hover{
 }
 #q{
     width: 500px;
+    max-width: 600px;
+    min-width: 200px;
+    box-sizing: border-box;
 }
 
 .box{
