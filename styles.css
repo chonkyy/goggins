@@ -1,0 +1,118 @@
+/* general styles */
+
+.normal_header{
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 64px;
+}
+
+.navbar{
+    display: flex;
+    margin-top:10px;
+    justify-content: right;
+}
+
+a{
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: black;
+    margin:20px;
+    margin-right: 20px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+/* Goggins and Images */
+#q{
+    width: 500px;
+}
+
+.box{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#q, #submit{
+    padding: 9px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: black;
+}
+
+#submit{
+    background-color: black;
+    color: white;
+}
+
+#submit:hover{
+    background-color: white;
+    color:black;
+    cursor: pointer;
+}
+
+
+
+
+/*advanced goggins header*/
+.advanced_header{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 100px;
+}
+
+#find_pages_with{
+    margin: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(84, 84, 84);
+    gap: 20px;
+}
+
+.form-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.form-row label{
+    width: 180px;
+}
+
+.adv_searchbox{
+    width: 300px;
+    padding: 6px;
+
+}
+
+#adv_submit{
+    margin-left: 400px;
+    padding: 8px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: black;
+}
+
+#adv_submit:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
